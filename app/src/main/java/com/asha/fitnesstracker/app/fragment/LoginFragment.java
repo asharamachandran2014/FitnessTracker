@@ -62,16 +62,16 @@ public class LoginFragment extends Fragment {
     private void onSessionStateChange(Session session, SessionState state, Exception exception) {
         if (state.isOpened()) {
             Log.i(TAG, "Logged in...");
-            Intent i = new Intent(getActivity(),MainScreen.class);
+           /* Intent i = new Intent(getActivity(),MainScreen.class);
             getActivity().finish();
-            startActivity(i);
+            startActivity(i);*/
             if (!isToastShown)
                 getUserInfo(session);
         } else if (state.isClosed()) {
             Log.i(TAG, "Logged out...");
-            Intent i = new Intent(getActivity(),MainScreen.class);
+           /* Intent i = new Intent(getActivity(),MainScreen.class);
             getActivity().finish();
-            startActivity(i);
+            startActivity(i);*/
         }
     }
 
