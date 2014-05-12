@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/background"
+    android:padding="20dp"
+    tools:context="com.asha.fitnesstracker.app.activities.BmiCalculator">
+
+
+    <EditText
+        android:id="@+id/editName"
+        style="@style/bmitextbox"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:visibility="visible" />
+
+    <Switch
+        android:id="@+id/editGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_gravity="left"
+        android:checked="true"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textOn="M"
+        android:textOff="F" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Age"
+        android:maxLength="2"
+        style="@style/bmitextbox"
+        />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        style="@style/bmitextbox"
+        android:hint="Weight (Kgs)"
+         />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        style="@style/bmitextbox"
+        android:hint="Height (cms)"
+         />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:background="@drawable/buttonshape"/>
+
+</LinearLayout>

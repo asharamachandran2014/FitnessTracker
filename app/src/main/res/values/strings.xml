@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FitnessTracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashtext">Fitness Tracker</string>
+    <string name="title_activity_social_login">SocialLoginActivity</string>
+    <string name="login">Login</string>
+    <string name="app_id">1481127025437266</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_facebook_login">FacebookLogin</string>
+    <string name="title_activity_bmi_calculator">BmiCalculator</string>
+    <string name="title_activity_bmi_result">BMI Result</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_calorie">Calorie Calculator</string>
+    <string name="activityLevel">Activity Level</string>
+
+    <string-array name="calorie_arrays">
+        <item>Inactive</item>
+        <item>Somewhat Active</item>
+        <item>Active</item>
+        <item>Very Active</item>
+    </string-array>
+
+</resources>

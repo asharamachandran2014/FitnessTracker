@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    tools:context="com.asha.fitnesstracker.app.activities.MainScreen">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/splash" />
+
+
+    <TextView
+        android:layout_below="@id/app_logo"
+        android:id="@+id/sign_in_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="Track Your Fitness" />
+
+    <TableLayout
+        android:layout_below="@id/sign_in_label"
+        android:layout_width="match_parent"
+        android:gravity="center"
+       android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <TableRow android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/bmi_btn"
+                android:src="@drawable/bmi"
+                style="@style/MainButton"
+                />
+            <ImageView
+                android:id="@+id/calorie_btn"
+                android:src="@drawable/calorie"
+                style="@style/MainButton"
+                />
+
+        </TableRow>
+
+        <TableRow android:weightSum="2"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:id="@+id/Tips_btn"
+                android:src="@drawable/tips"
+                style="@style/MainButton"
+                />
+            <ImageView
+                android:id="@+id/Reports_btn"
+                android:src="@drawable/report"
+                style="@style/MainButton"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>-->
+
+    </style>
+    <style name="NoTitle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:background">#E0C8C8</item>
+
+    </style>
+    <style name="background">
+        <item name="android:background">#E0C8C8</item>
+    </style>
+
+    <style name="MainButton">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <!--<item name="android:background">@drawable/buttonshape</item>-->
+        <item name="android:shadowColor">#669DA8</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:padding">10dp</item>
+
+     </style>
+
+    <style name="bmitextbox">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+</resources>
