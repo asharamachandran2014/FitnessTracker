@@ -23,4 +23,6 @@
         <item>Very Active</item>
     </string-array>
 
+    <string name="title_activity_calorie_result">CalorieResult</string>
+
 </resources>

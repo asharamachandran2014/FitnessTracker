@@ -54,6 +54,10 @@
             android:name="com.asha.fitnesstracker.app.activities.Calorie"
             android:label="@string/title_activity_calorie" >
         </activity>
+        <activity
+            android:name="com.asha.fitnesstracker.app.activities.CalorieResult"
+            android:label="@string/title_activity_calorie_result" >
+        </activity>
     </application>
 
 </manifest>
