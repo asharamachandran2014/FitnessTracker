@@ -24,5 +24,14 @@
     </string-array>
 
     <string name="title_activity_calorie_result">CalorieResult</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="action_home">Home</string>
+    <string name="action_bmi">BMI</string>
+    <string name="action_calorie">Calorie</string>
+    <string name="action_tips">Tips</string>
+    <string name="action_reports">Reports</string>
+    <string name="title_activity_result">Result</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_section_text">Reports</string>
 
 </resources>

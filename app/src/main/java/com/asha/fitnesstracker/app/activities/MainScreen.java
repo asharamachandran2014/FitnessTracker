@@ -50,6 +50,8 @@ public class MainScreen extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.Reports_btn:
+                Intent report = new Intent(MainScreen.this,Report.class);
+                startActivity(report);
                 break;
 
 

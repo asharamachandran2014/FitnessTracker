@@ -14,7 +14,7 @@ import com.asha.fitnesstracker.app.R;
 
 import java.math.BigDecimal;
 
-public class BmiCalculator extends Activity implements View.OnClickListener{
+public class BmiCalculator extends BaseActivity implements View.OnClickListener{
 
     EditText textName,textHeight,textWeight,textAge;
     Switch switchGender;

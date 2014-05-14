@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.asha.fitnesstracker.app.R;
 import com.asha.fitnesstracker.app.activities.MainScreen;
-import com.asha.fitnesstracker.app.misc.NoticePagerListener;
 import com.facebook.*;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.LoginButton;

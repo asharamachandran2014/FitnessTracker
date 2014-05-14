@@ -1,6 +1,7 @@
 package com.asha.fitnesstracker.app.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
 import android.text.TextUtils;
@@ -21,7 +22,7 @@ import com.asha.fitnesstracker.app.R;
 
 import java.math.BigDecimal;
 
-public class Calorie extends Activity implements AdapterView.OnItemSelectedListener, CompoundButton.OnCheckedChangeListener {
+public class Calorie extends BaseActivity implements AdapterView.OnItemSelectedListener, CompoundButton.OnCheckedChangeListener {
 
     private Spinner spinner;
     private EditText textName,textAge,textWeight,textHeight;
@@ -110,7 +111,12 @@ public class Calorie extends Activity implements AdapterView.OnItemSelectedListe
             result = round(myBmr,1);
         }
 
-        Toast.makeText(this,"BMR is -- "+result+" I AM "+switchGender.getText(),Toast.LENGTH_LONG).show();
+//        Toast.makeText(this,"BMR is -- "+result+" I AM "+switchGender.getText(),Toast.LENGTH_LONG).show();
+        Intent bmr = new Intent(Calorie.this,CalorieResult.class);
+        String myResult = result.toString();
+        bmr.putExtra("strResult",myResult);
+        bmr.putExtra("strName",textName.getText().toString().trim());
+        startActivity(bmr);
     }
 
     public void bmronClick(View v){

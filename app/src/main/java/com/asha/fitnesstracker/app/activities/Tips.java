@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.asha.fitnesstracker.app.R;
 
-public class Tips extends Activity {
+public class Tips extends BaseActivity {
 
 
     @Override

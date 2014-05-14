@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.asha.fitnesstracker.app.R;
 
-public class BmiResult extends Activity {
+public class BmiResult extends BaseActivity {
 
     String result,name,myHealth;
     Float myValue;
